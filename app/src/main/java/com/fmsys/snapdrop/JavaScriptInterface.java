@@ -277,12 +277,12 @@ public class JavaScriptInterface {
                 "websiteLinkDiv.style.cssText = 'height:10%; position:absolute; bottom:0px;';" +
 
                 "let websiteLink = document.createElement('a');" +
-                "websiteLink.href = 'https://snapdrop.net/';" +
+                "websiteLink.href = 'https://snapdrop.mangobeta.com/';" +
                 "websiteLink.target = '_blank';" +
 
                 "let websiteLinkText = document.createElement('h4');" +
                 "websiteLinkText.style.cssText = 'font-size: 16px; font-weight: 400; letter-spacing: .5em; margin: 16px 0;';" +
-                "websiteLinkText.innerText = 'WWW.SNAPDROP.NET';" +
+                "websiteLinkText.innerText = 'snapdrop.mangobeta.com';" +
 
                 "let aboutScreen = document.querySelector('#about>section');" +
                 "websiteLinkDiv.appendChild(websiteLink);" +

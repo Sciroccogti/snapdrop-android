@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
     public static final int REQUEST_SELECT_FILE = 100;
 
     //private static final String baseURL = "https://fm-sys.github.io/snapdrop/client/";
-    private static final String baseURL = "https://snapdrop.net/";
+    private static final String baseURL = "https://snapdrop.mangobeta.com/";
 
     public WebView webView;
     public SharedPreferences prefs;
@@ -151,7 +151,7 @@ public class MainActivity extends Activity {
         if (onlinePastThreeMin()) {
             WebStorage.getInstance().deleteAllData();
 
-            cookieManager.setCookie("https://snapdrop.net/",
+            cookieManager.setCookie("https://snapdrop.mangobeta.com/",
                     "peerid=" + UUID.randomUUID().toString() + ";" +
                             "path=/server;" +
                             "max-age=86400;"
